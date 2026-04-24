@@ -51,7 +51,7 @@ reverse(n)
 
 #7)check whether a number is prime
 n=int(input("enter your no:"))
-def prime():
+def prime(n):
     if n<0:
         print("not a prime no")
     
@@ -59,6 +59,10 @@ def prime():
         for i in range(2,n):
             if n%i==0:
                 print("not a prime no")
+                break
+            else:
+                print("prime no")
+prime(n)
 '''
 
 
