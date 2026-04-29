@@ -1,5 +1,3 @@
-import time as t
-print(t.time())
 #1)
 import webbrowser as wb
 wb.open_new_tab("WWW.google.com")
@@ -10,22 +8,23 @@ wb.open_new_tab("www.youtube.com")
 
 #3)
 import pywhatkit as py
-py.search("play  any music from youtube")
+py.search("play any music from youtube")
 
 #4)
 import pywhatkit as py
 py.sendwhatmsg_instantly("7402231604","hello")
-#5)
+
+#5)import time as t
+print(t.time())
+
+#6)
 import time as t
 print("harini mirthulaa")
 t.sleep(10)
 print("mouse ruth")
-#11)
-import numpy as np
-data=np,array(["mirthula,harini,moushitha,ruthistha"])
-print(data)
 
-#12)
+
+
 
 
 
