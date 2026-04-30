@@ -1,27 +1,83 @@
 #1)
-import webbrowser as wb
-wb.open_new_tab("WWW.google.com")
+import webbrowser as w
+w.open_new_tab("WWW.google.com")
 
 #2)
-import webbrowser as wb
-wb.open_new_tab("www.youtube.com")
+import webbrowser as w
+w.open_new_tab("www.youtube.com")
 
 #3)
 import pywhatkit as py
-py.search("play any music from youtube")
+py.playonyt("kadhaipoma bgm")
 
 #4)
 import pywhatkit as py
-py.sendwhatmsg_instantly("7402231604","hello")
+py.sendwhatmsg_instantly("+916374363776","Hello")
 
-#5)import time as t
-print(t.time())
+#5)
+import time as t
+print(t.ctime())
 
 #6)
 import time as t
-print("harini mirthulaa")
+print("Mirthulaa")
 t.sleep(10)
-print("mouse ruth")
+print("Jeevaprithaa")
+
+#7)
+from scipy import constants as s
+print(s.hour)
+
+#8)
+import calendar as c
+print(c.calendar(2026))
+
+#9)
+import calendar as c
+print(c.month(2026,4))
+
+#10)
+import calendar as c
+print(c.weekday(2026, 4, 30))
+
+#11)
+import numpy as np
+a=np.array([1,2,3,4,5])
+print(a)
+
+#12)
+import numpy as np
+a=np.array([1,2,3,4,5])
+b=np.array([6,7,8,9,10])
+print(a+b)
+
+#13)
+import numpy as np
+a=np.array([1,2,3,4,5])
+b=np.array([6,7,8,9,10])
+print(a*b)
+
+#14)
+import numpy as np
+a=np.array([1,2,3,4,5])
+print(np.sum(a))
+
+#15)
+import numpy as np
+a=np.array([4,18,20,24])
+print(np.max(a))
+
+#16)
+from PIL import Image as i
+s=i.open("C:\\Users\\JEEVAPRITHAA\\Downloads\\jpeg.jpg")
+s.show()
+
+#17)
+from PIL import Image as i
+s=i.open("C:\\Users\\JEEVAPRITHAA\\Downloads\\jpeg.jpg")
+r=s.resize((100,100))
+r.show()
+
 
 
 
