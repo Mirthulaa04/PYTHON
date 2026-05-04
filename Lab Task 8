@@ -1,0 +1,99 @@
+#1.palindrome in string
+word=input("enter your word:")
+reverse=word[::-1]
+if reverse==word:
+    print("It is a palindrome")
+else:
+    print("It is not a palindrome")
+#1.palindrome in integer
+n=int(input("Enter your no:"))
+t=n
+r=0
+while t>0:
+    d=t%10
+    r=r*10+d
+    t//=10
+if r==n:
+    print("palindrome")
+else:
+    print("not a palindrome")
+#3.hazard number
+n=int(input("Enter your no:"))
+t=n
+sums=0
+while t>0:
+    d=t%10
+    sums+=d
+    t//=10
+if n%sums==0:
+    print("it is a hazard no")
+else:
+    print("it is not a hazard no")
+#4.armstrong no
+n=int(input("enter your no:"))
+t=n
+a=n
+c=0
+while t>0:
+    t//=10
+    c+=1
+print(c)
+sums=0
+while a>0:
+    d1=a%10
+    sums+=d1**c
+    a//=10
+if n==sums:
+    print("armstrong no")
+else:
+    print("not a arms no")
+#5.prime no
+n=int(input("Enter your no:"))
+if n<0:
+      print(" not a prime no")
+else:
+    for i in range(2,n):
+        if n%i==0:
+            print("not a prime no")
+            break
+        else:
+            print("is a prime no")
+#8.factorial using loop
+mul=1
+for i in range(1,6):
+    mul*=i
+print("mul=",mul)
+#9.buzz number
+n=int(input("Enter your no:"))
+if n%7==0 or n%10==7:
+      print("it is a buzz no")
+else:
+    print("is a not a buzz no")
+#6.*pattern
+n=int(input("Enter your rows:"))
+for i in range(n):
+    for j in range(i,n):
+        print(" ",end=" ")
+    for k in range(i):
+        print(" * ",end=" ")
+    print()
+for i in range(n):
+    for j in range(i):
+        print(" ",end=" ")
+    for k in range(i,n):
+        print(" * ",end=" ")
+    print()
+#10.printing letter using
+for i in range(3):
+    for j in range(3):
+        if i==0 and j==0:
+            print("*",end=" ")
+        elif i==1 and j==0:
+            print("*",end=" ")
+        elif i==2 and j==0:
+            print("*",end=" ")
+        elif i==2 and j==1:
+            print("*",end=" ")
+        elif i==2 and j==2:
+            print("*",end=" ")
+    print()
