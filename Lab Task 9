@@ -1,0 +1,23 @@
+#1)armstrong number
+n=int(input("Enter your no:"))
+t=n
+a=n
+c=0
+while t>0:
+    t//=10
+    c+=1
+print(c)
+sums=0
+while a>0:
+    d1=a%10
+    sums+=d1**c
+    a//=10
+if n==sums:
+    print("Armstrong no")
+else:
+    print("Not Armstrong no")
+
+#3)remove duplicates
+l=[6,7,6,8,9,10]
+l.remove(6)
+print(l)
